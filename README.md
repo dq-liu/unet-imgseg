@@ -7,9 +7,9 @@ We illustrate the functionality of this project as follows.
 Image | Mask | Prediction
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](/demo/image.PNG) | ![](/demo/mask.PNG) | ![](/demo/label.PNG)
-Microscope photos in which we are trying to detect boundaries of mouse bones (red sections). | Manually labelled images (yellow lines). | The predicted boundaries by the model (white lines).
+Microscope photos in w. | Manually labelled images (yellow lines). | The predicted boundaries by the model (white lines).
 
-## Model Framework
+## Model Framework    
 We mainly employed the framework of [U-Net](https://arxiv.org/abs/1505.04597) (Ronneberger et al., 2015), a Convolutional Neural Network as follows.
 ![](/demo/unet.PNG)
 
