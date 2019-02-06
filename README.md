@@ -4,6 +4,12 @@ This repository contains source code to implement a modified Unet framework on i
 ## Demonstration
 We illustrate the functionality of this project as follows.    
 
+Image | Mask | Prediction
+:-------------------------:|:-------------------------:|:-------------------------:
+![](/demo/image.PNG) | ![](/demo/mask.PNG) | ![](/demo/label.PNG)
+Microscope photos in which we are trying to detect boundaries of mouse bones (red sections). | Manually labelled images (yellow lines). | The predicted boundaries by the model (white lines).
+
+
 
 ## Datasets
 Data are saved in `.p` files (python pickle files) as follows.    
