@@ -6,7 +6,7 @@ We illustrate the functionality of this project as follows.
 
 Image | Mask | Prediction
 :-------------------------:|:-------------------------:|:-------------------------:
-![](/demo/image.PNG){:height="36px"} | ![](/demo/mask.PNG) | ![](/demo/label.PNG)
+![](/demo/image.PNG) | ![](/demo/mask.PNG) | ![](/demo/label.PNG)
 Microscope photos in which we are trying to detect boundaries of mouse bones (red sections). | Manually labelled images (yellow lines). | The predicted boundaries by the model (white lines).
 
 
