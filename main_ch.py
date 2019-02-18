@@ -47,9 +47,9 @@ images_r = images[:, :, :, 0].reshape((90, 966, 1296, 1))
 images_g = images[:, :, :, 1].reshape((90, 966, 1296, 1))
 images_b = images[:, :, :, 2].reshape((90, 966, 1296, 1))
 
-images_eq_r = np.array([equalize_hist(images_r[i]) for i in range(90)])
-images_eq_g = np.array([equalize_hist(images_g[i]) for i in range(90)])
-images_eq_b = np.array([equalize_hist(images_b[i]) for i in range(90)])
+images_eq_r = np.array([equalize_hist(images_r[i], mask=labels[i]) for i in range(90)])
+images_eq_g = np.array([equalize_hist(images_g[i], mask=labels[i]) for i in range(90)])
+images_eq_b = np.array([equalize_hist(images_b[i], mask=labels[i]) for i in range(90)])
 
 # split data into training and test
 random.seed = 2019
