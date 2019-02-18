@@ -23,5 +23,5 @@ Data are saved in `.p` files (python pickle files) as follows.
 `model.py`: defines the Unet framework;    
 `obj.py`: defines loss functions and evaluation metrics;    
 `preproc.py`: performs data augmentation and label generation;    
-`main.py`: trains and evaluates model and makes predictions;
+`main.py`: trains and evaluates model and makes predictions;    
 `main_ch.py`: trains and evaluates model and makes predictions (RGB channels seperated).
